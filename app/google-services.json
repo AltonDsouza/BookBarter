@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "723306599424",
+    "firebase_url": "https://myapplication2-56855.firebaseio.com",
+    "project_id": "myapplication2-56855",
+    "storage_bucket": "myapplication2-56855.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723306599424:android:ee105bf078e6b7dd",
+        "android_client_info": {
+          "package_name": "com.example.alton.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723306599424-0jfv5bojnto424tg6roqutlu6ekfrlll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alton.myapplication",
+            "certificate_hash": "1cfbe3d2aedeb976a8de38a9c1fe1ab588a65d57"
+          }
+        },
+        {
+          "client_id": "723306599424-htm1rrtcnfa8sgbc6847rrhimu1a28e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkvAC_AXjlxIA-3fHkYehnCzX1NXNAJaw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723306599424-htm1rrtcnfa8sgbc6847rrhimu1a28e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

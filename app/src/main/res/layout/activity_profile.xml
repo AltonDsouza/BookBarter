@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_user_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Profile.ViewProfileActivity"
+    >
+
+    <TextView
+        android:text="@string/profilePicLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textViewProfilePicLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/imageViewUserProfilePicture"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textViewUFname"
+        android:text="@string/first_name_label" />
+
+    <TextView
+        android:text="TextView"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewShowUFName"
+        android:layout_alignBaseline="@+id/textViewUFname"
+        android:layout_alignBottom="@+id/textViewUFname"
+        android:layout_toRightOf="@+id/textViewProfilePicLabel"
+        android:layout_toEndOf="@+id/textViewProfilePicLabel" />
+
+    <TextView
+        android:text="@string/last_name_label"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textViewULName" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewULName"
+        android:layout_alignLeft="@+id/textViewShowUFName"
+        android:layout_alignStart="@+id/textViewShowUFName"
+        android:id="@+id/textViewShowULName"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:text="@string/gender_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewULName"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textViewUGender" />
+
+    <TextView
+        android:text="TextView"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewUGender"
+        android:layout_alignLeft="@+id/textViewShowULName"
+        android:layout_alignStart="@+id/textViewShowULName"
+        android:id="@+id/textViewShowUGender" />
+
+    <Button
+        android:text="@string/back_btn_label"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/buttonBack"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/textViewUGender"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+        android:layout_marginTop="16dp"
+        android:id="@+id/imageViewUserProfilePicture"
+        android:layout_height="110dp"
+        android:layout_width="200dp"
+        android:layout_below="@+id/textViewProfilePicLabel"
+        android:layout_toRightOf="@+id/textViewULName"
+        android:layout_toEndOf="@+id/textViewULName" />
+
+</RelativeLayout>

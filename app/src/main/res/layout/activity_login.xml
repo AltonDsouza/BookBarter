@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginModule.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Barter"
+            android:textSize="40sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginBottom="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/text2"
+            android:layout_gravity="center_horizontal"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/borders"
+            android:id="@+id/editTextEmail2"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="20dp"/>
+
+
+        <EditText
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borders"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/editTextPassword2"
+            android:hint="Enter your password"
+            android:inputType="textPassword"/>
+        <Button
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSignin"
+            android:text="Login"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/face_button"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/buttonSignin"
+             />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/textForgot"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="Don't have an account? Sign up here"
+            android:textAlignment="center"
+            android:id="@+id/textViewSignup"/>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

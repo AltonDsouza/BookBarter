@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context="com.example.alton.myapplication.Admin.AdminShowUsers">
+
+    <Button
+        android:id="@+id/showusers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Show users"/>
+    <Button
+        android:id="@+id/addbooks"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="Add Books"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="30dp"
+        android:text="Delete books"/>
+
+
+</LinearLayout>

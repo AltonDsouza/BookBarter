@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+        android:id="@+id/imageUserPic"
+        android:layout_width="70dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUserName"
+        android:textSize="15dp"
+        android:layout_below="@+id/imageUserPic"
+        android:layout_alignLeft="@+id/imageUserPic"
+        android:layout_alignStart="@+id/imageUserPic"
+        android:layout_marginTop="17dp" />
+</RelativeLayout>

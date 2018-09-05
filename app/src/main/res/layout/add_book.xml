@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".AddBooks">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@android:color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:layout_marginTop="20dp"
+                android:text="Book image"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/noimage"
+                android:id="@+id/bookimg"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="book name"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/bookname"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="Book Author"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/author"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/spinnerCategory"
+                 />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="PUBLISHER NAME"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/publishermsg"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="32dp"
+                android:paddingLeft="3dp"
+                android:text="Description"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/your_desc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:height="180dp"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:text="Book Price"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="16sp"
+                android:id="@+id/price"
+                />
+
+            <Button
+                android:id="@+id/post_message"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"
+                android:paddingBottom="1dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="1dp"
+                android:text="ADD"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComposeEmail" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp" >
+        <EditText android:id="@+id/editTextTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:hint="Email Address !"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
+        <EditText android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextTo"
+            android:layout_margin="5dp"
+            android:hint="Mobile no."
+            android:singleLine="true"/>
+        <EditText android:id="@+id/editTextSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextPhone"
+            android:layout_margin="5dp"
+            android:hint="Subject"
+            android:singleLine="true"/>
+        <EditText android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/editTextSubject"
+            android:layout_margin="5dp"
+            android:gravity="top|left"
+            android:hint="Type Message Here !"
+            android:inputType="textMultiLine"/>
+        <Button android:id="@+id/buttonSend"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:background="@drawable/round_button"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editTextMessage"
+            android:layout_margin="5dp"
+            android:text="Send"/>
+        <Button android:id="@+id/buttonAttachment"
+            android:layout_width="wrap_content"
+            android:background="@drawable/round_button"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/editTextMessage"
+            android:layout_alignParentRight="true"
+            android:text="Attachment"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+
+</ScrollView>

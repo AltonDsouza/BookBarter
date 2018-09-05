@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Book Barter</string>
+
+
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_forgot">Forgot password?</string>
+    <string name="hint_text">We just need your registered email id to send you password reset instructions.</string>
+    <string name="app_tools">Settings</string>
+    <string name="app_share">Share</string>
+    <string name="app_logout">Logout</string>
+    <string name="app_add">Add books</string>
+    <string name="open">Open</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="close">Close</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+    <string name="cancelHint">Cancel</string>
+    <string name="lastNameHint">  Enter Last Name</string>
+    <string name="firstNameHint">  Enter First Name</string>
+
+
+    <string name="user_successfully_added">User successfully added!</string>
+    <string name="user_unable_to_add">Unable to add user!</string>
+    <string name="adding_user_to_db">Adding user to database.</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait...</string>
+
+    <string name="font_family_roboto_light">sans-serif-thin</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="facebook_app_id">163396110947807</string>
+    <string name="fb_login_protocol_scheme">fb163396110947807</string>
+
+    <string name="view_profile_label">View Profile</string>
+    <string name="logout_label">Logout</string>
+
+    <string name="first_name_label">First Name: </string>
+    <string name="last_name_label">Last Name:</string>
+    <string name="gender_label">Gender: </string>
+    <string name="btn_ok_label">Ok</string>
+    <string name="btn_update_label">Update</string>
+    <string name="all_users_label">Available Users :</string>
+    <string name="profilePicLabel">Profile Picture :</string>
+    <string name="back_btn_label">Back</string>
+    <string name="send_msg_label">Send Message</string>
+
+    <string name="repeatPasswrdHint">Repeat Password</string>
+    <string name="signUpLabel">Sign Up</string>
+    <string name="emailHint">Enter Email</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="bookname">Book image</string>
+    <string name="publisher">Publisher Name: </string>
+    <string name="author">Author Name: </string>
+
+
+    <string name="etEmail">Email</string>
+    <string name="etPassword">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Create Account</string>
+
+    <string name="text_msg_hint">Type a Message</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="backdrop_title">LOVE BOOKS</string>
+    <string name="backdrop_subtitle">This season top 20 books</string>
+    <string name="education">Education</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">About</string>
+
+
+    <string name="slide_1_desc">The easiest way to borrow and buy books from your favourite categories!</string>
+    <string name="slide_2_desc">Buy or rent books from nearby bookstores!</string>
+    <string name="slide_3_desc">Buy books at lower rates!</string>
+    <string name="slide_4_desc">Borrow books without paying extra!</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="fiction">Fiction</string>
+    <string name="topic">Browse your favorite novels</string>
+    <string-array name="gender_list">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>Fiction</item>
+        <item>Educational</item>
+        <item>Romantic</item>
+        <item>Horror</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

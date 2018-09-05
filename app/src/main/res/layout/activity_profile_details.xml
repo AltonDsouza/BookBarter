@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile_details"
+    android:layout_width="match_parent"
+    android:background="@color/black_overlay"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Profile.ProfileDetailsActivity">
+
+    <TextView
+        android:text=""
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewFNameLabel"
+        android:layout_toRightOf="@+id/textViewFNameLabel"
+        android:layout_toEndOf="@+id/textViewFNameLabel"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/textViewUserFName" />
+
+    <TextView
+        android:text="@string/last_name_label"
+android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="23dp"
+        android:id="@+id/textViewLNameLabel"
+        android:layout_below="@+id/textViewFNameLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewLNameLabel"
+        android:layout_alignLeft="@+id/textViewUserFName"
+        android:layout_alignStart="@+id/textViewUserFName"
+        android:id="@+id/textViewEditLName" />
+
+    <TextView
+        android:text="@string/gender_label"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewLNameLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textViewGenderLabel" />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/textViewGenderLabel"
+        android:layout_alignLeft="@+id/textViewEditLName"
+        android:layout_alignStart="@+id/textViewEditLName"
+        android:id="@+id/textViewUserGender" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square"
+        android:id="@+id/imageViewProfilePic"
+        android:layout_above="@+id/textViewUserFName"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:text="@string/first_name_label"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="152dp"
+        android:id="@+id/textViewFNameLabel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/profile_edit"
+        android:id="@+id/imageViewEditProfile"
+        android:layout_width="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="40dp" />
+
+    <Button
+        android:text="@string/btn_ok_label"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOk"
+        android:layout_marginBottom="100dp"
+        android:layout_width="160dp"
+        android:background="@drawable/round_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textViewGenderLabel"
+        android:layout_toEndOf="@+id/textViewGenderLabel" />
+
+</RelativeLayout>

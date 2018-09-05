@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp"
+            android:title="My Profile"
+            android:tooltipText="View Profile"/>
+
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_to_photos_black_24dp"
+            android:title="Add books"
+            />
+        <item
+            android:id="@+id/nav_myBook"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="MyBooks"
+            android:tooltipText="View your books"
+            />
+        <item
+            android:id="@+id/nav_near"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Nearby" />
+        <item
+            android:id="@+id/nav_tool"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feed"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
