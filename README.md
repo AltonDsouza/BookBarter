@@ -13,4 +13,4 @@ Edit books,View books,search books,post reviews and view reviews.
 The user can view all the recently added books.While adding books the user
 is given an option to categorize his/her book
 
-<img src="app/src/main/res/drawable/Screenshot_20180303-140738.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180303-134738.png" width=200>
+<img src="app/src/main/res/drawable/Screenshot_20180303-140738.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180303-134738.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180303-163007.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180310-225128.png" width=200>
