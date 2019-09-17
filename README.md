@@ -13,6 +13,10 @@ Edit books,View books,search books,post reviews and view reviews.
 The user can view all the recently added books.While adding books the user
 is given an option to categorize his/her book
 
+
+##Note:
+#I don't maintain this code(Free to modify and update)
+
 <img src="app/src/main/res/drawable/Screenshot_20180303-140738.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180303-134738.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180303-163007.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180310-225128.png" width=200>
 <img src="app/src/main/res/drawable/Screenshot_20180310-232730.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180311-085206.png" width=200><img src="app/src/main/res/drawable/Screenshot_20180311-085456.png" width=200><img src="app/src/main/res/drawable/Screenshot_20180311-110003.png" width=200>
 <img src="app/src/main/res/drawable/Screenshot_20180307-191249.png" width=200> <img src="app/src/main/res/drawable/Screenshot_20180310-232526.png" width=200>   <img src="app/src/main/res/drawable/Screenshot_20180303-193336.png" width=200>
